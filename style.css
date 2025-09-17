@@ -55,6 +55,11 @@ a {
     color: var(--green);
 }
 
+#nav-links a.active {
+    color: var(--green);
+    font-weight: bold;
+}
+
 .home {
     display: flex;
     align-items: center;
