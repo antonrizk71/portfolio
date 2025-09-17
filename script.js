@@ -7,12 +7,19 @@ menuToggle.addEventListener("click", () => {
 
 // nav link active
 
+
 const links = document.querySelectorAll('#nav-links a');
 
 function setActiveLink() {
-    const currentHash = window.location.hash || '#home';
+    const pathSegments = window.location.href.split('/');
+    const lastSegment = pathSegments[pathSegments.length - 1] || '#home';
+
     links.forEach(link => {
-        if (link.getAttribute('href') === currentHash) {
+
+        const linkHash = link.getAttribute('href');
+
+
+        if (lastSegment.includes(linkHash.replace('#', ''))) {
             link.classList.add('active');
         } else {
             link.classList.remove('active');
@@ -23,4 +30,6 @@ function setActiveLink() {
 
 setActiveLink();
 
+
 window.addEventListener('hashchange', setActiveLink);
+
