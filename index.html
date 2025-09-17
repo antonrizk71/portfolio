@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton Rizk | Portfolio</title>
+    <link rel="icon" href="./images/profile.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Anton Rizk</h1>
+            <h2>I'm a
+                <span>Full Stack Developer</span>
+            </h2>
+            <p>
+                A passionate Full Stack Web Developer specializing in PHP and Laravel with hands-on experience in
+                building
+                dynamic and efficient web applications. Skilled in backend development, database management, and modern
+                frontend
+                practices using Livewire and Bootstrap. I enjoy solving problems, learning new technologies, and turning
+                ideas
+                into powerful digital solutions.
+            </p>
+
+            <div class="btn-sci">
+                <a href="./Anton Rizk-Full_Stack_Developer.pdf" class="btn" download>Download CV</a>
+                <!-- Font Awesome -->
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+                <div class="sci">
+                    <!-- Gmail -->
+                    <a href="mailto:antonrizk71@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com/in/anton-rizk-243165297" target="_blank">
+                        <i class="fab fa-linkedin "></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/201222561380" target="_blank">
+                        <i class="fab fa-whatsapp "></i>
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/antonrizk71" target="_blank">
+                        <i class="fab fa-github "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./images/profile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>My Services</h2>
+        </div>
+        <div class="service-boxes">
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic web applications using Laravel, PHP, and modern frameworks.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Designing and optimizing relational databases (MySQL) for high performance and reliability.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>Responsive Design</h3>
+                <p>Creating mobile-friendly and cross-platform solutions using Bootstrap and Tailwind.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-react"></i>
+                <h3>Frontend Development</h3>
+                <p>Developing interactive user interfaces with React and modern JavaScript tools.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+                <p>Building robust and scalable applications using PHP, Laravel, and Livewire with secure authentication
+                    and API integrations.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-code-branch"></i>
+                <h3>Version Control</h3>
+                <p>Managing projects and collaboration efficiently with Git and GitHub.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>My Projects</h2>
+            <p>Some of my recent projects showcasing my skills in web development.</p>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <!-- Project 1 -->
+            <div class="portfolio-card">
+                <img src="./images/projects/std-mis.jpg" alt="University Student Affairs Management System">
+                <div class="overlay">
+                    <h3>University Student Affairs Management System</h3>
+                    <p>
+                        Laravel + PHP + MySQL + Bootstrap + Jetstream.<br>
+                        Centralized platform for managing student services at Benha University including
+                        course registration, grade tracking, advising, medical bookings, and transcript generation.
+                        Features role-based access, Arabic/English dual-language, real-time notifications,
+                        PDF/Excel reports, and an Arabic AI chatbot for instant support.
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/Student-management-system" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1ghX1LX8UUNw91Wc9xt3pwbmpTF4Ln5wP/view?usp=drive_link"
+                            target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-card">
+                <img src="./images/projects/quizo.png" alt="Online Quiz System">
+                <div class="overlay">
+                    <h3>Online Quiz System</h3>
+                    <p>
+                        Laravel + PHP + MySQL + Bootstrap + Breeze.<br>
+                        Feature-rich platform with authentication, email verification, dynamic quizzes (MCQ & T/F),
+                        real-time scoring, quiz timer, performance charts, and PDF reports.
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/quiz_system" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/posts/anton-rizk-243165297_webdevelopment-php-laravel-activity-7253858860371767296-58y9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEe_hRMBG2HebQwxnqFA1Ra0eSQ3wGGyZBk"
+                            target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-card">
+                <img src="./images/projects/news24.png" alt="News Website">
+                <div class="overlay">
+                    <h3>News Website</h3>
+                    <p>Laravel + Livewire based real-time news platform with authentication and comments system.</p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/blog-website" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <!-- <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Project 4-->
+            <div class="portfolio-card">
+                <img src="./images/projects/E-commerce.png" alt="E-commerce App">
+                <div class="overlay">
+                    <h3>E-commerce React App</h3>
+                    <p>Modern React frontend with Laravel backend API for a scalable shopping platform.</p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/E-commerce-React" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://antonrizk71.github.io/E-commerce-React/" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Project 5 -->
+            <div class="portfolio-card">
+                <img src="./images/projects/Attendance.png" alt="Student Attendance & Delay Tracking">
+                <div class="overlay">
+                    <h3>Student Attendance & Delay Tracking</h3>
+                    <p>
+                        Laravel + Livewire + MySQL + Bootstrap.<br>
+                        Tracks attendance, delay, and absence. Supports reports by date, role-based access for
+                        supervisors, birthday tracker, and admin dashboards with clear data visualization.
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/Attendance-and-absence-system" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://student-mis-2944d4de5858.herokuapp.com/" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="portfolio-card">
+                <img src="./images/projects/frontend-templet.png" alt="Frontend Template">
+                <div class="overlay">
+                    <h3>Frontend Template</h3>
+                    <p>
+                        A modern, responsive frontend template designed with HTML, CSS, and Bootstrap.
+                        Features clean UI, reusable components, and optimized layouts for portfolio and business
+                        websites.
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/antonrizk71/iti-frist-templet" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://antonrizk71.github.io/iti-frist-templet/" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div class="container" id="experience">
+        <h2>Experience & Education Timeline</h2>
+
+        <div class="timeline">
+            <!-- ITI Training Timeline Item -->
+            <div class="timeline-item experience">
+                <div class="timeline-icon" style="background-color: #f59e0b;">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3>ITI React Track – 1 Month Training</h3>
+                <span>August 17, 2024 – September 14, 2024</span>
+                <ul>
+                    <li>Studied HTML5, CSS3, Bootstrap, JavaScript, React.</li>
+                    <li>Developed practical projects using React and frontend technologies.</li>
+                </ul>
+            </div>
+
+            <!-- Education -->
+            <div class="timeline-item education">
+                <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3>Bachelor of Science in Computers & AI</h3>
+                <span>Benha University | Graduated: 2025</span>
+                <ul>
+                    <li>GPA: 3.64 (Very Good)</li>
+                    <li>Graduation Project: Excellent (A+)</li>
+                </ul>
+            </div>
+
+            <!-- Experience -->
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <h3>Pioneers of Digital Egypt Initiative – Training</h3>
+                <span>June 22, 2024 – September 30, 2024</span>
+                <ul>
+                    <li>Participated in a training program organized by the Ministry of Communications and Information
+                        Technology.</li>
+                    <li>Enhanced skills in digital technologies and backend development practices.</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="container">
+            <h2>Skills</h2>
+
+            <!-- Technical Skills with Progress Bars -->
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-html5 html-color"></i> HTML5 <span
+                            class="skill-percent">95%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-css3-alt css-color"></i> CSS3 <span
+                            class="skill-percent">90%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-bootstrap bootstrap-color"></i> Bootstrap 5 <span
+                            class="skill-percent">85%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-php php-color"></i> PHP <span
+                            class="skill-percent">80%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-laravel laravel-color"></i> Laravel <span
+                            class="skill-percent">75%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <span class="skill-name"><i class="fa-brands fa-react react-color"></i> React <span
+                            class="skill-percent">60%</span></span>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills as Badges -->
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <div class="skill-grid">
+                    <div class="skill-badge"><i class="fa-solid fa-users"></i> Teamwork</div>
+                    <div class="skill-badge"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                    <div class="skill-badge"><i class="fa-solid fa-comments"></i> Communication</div>
+                    <div class="skill-badge"><i class="fa-solid fa-brain"></i> Critical Thinking</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container" id="contact">
+
+            <!-- Social Icons -->
+            <div class="sci">
+                <a href="mailto:antonrizk71@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/anton-rizk-243165297" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/201222561380" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/antonrizk71" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p><i class="fa-solid fa-phone"></i> +20 122 256 1380</p>
+                <p><i class="fa-solid fa-envelope"></i> antonrizk71@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Benha, Qalyubia, Egypt</p>
+            </div>
+
+            <!-- Rights -->
+            <p>© 2025 Anton Rizk | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
