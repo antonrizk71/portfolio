@@ -711,6 +711,18 @@ h2 {
 
     }
 
+    body {
+        margin-top: 5rem;
+    }
+
+    .home-info h1 {
+        font-size: 2rem;
+    }
+
+    .home-info p {
+        margin-top: -1rem;
+    }
+
 }
 
 
