@@ -374,6 +374,39 @@
     </section>
 
 
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p id="form-message"></p>
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <div class="footer-container" id="contact">
@@ -406,8 +439,9 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
