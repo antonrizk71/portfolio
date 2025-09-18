@@ -346,12 +346,24 @@ a {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
     opacity: 0;
     transition: 0.5s;
     padding: 1rem;
+    overflow-y: auto;
+    text-align: center;
+    box-sizing: border-box;
+    max-height: 100%;
 }
+
+.portfolio-card .overlay h3,
+.portfolio-card .overlay p {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
 
 .portfolio-card:hover .overlay {
     opacity: 1;
@@ -363,15 +375,22 @@ a {
     margin-bottom: 0.5rem;
 }
 
-.portfolio-card p {
+
+
+.portfolio-card .overlay p {
     font-size: 0.9rem;
     margin-bottom: 1rem;
     color: #ccc;
+    white-space: normal;
+    word-wrap: break-word;
 }
+
 
 .portfolio-card .links {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-card .links a {
@@ -726,6 +745,20 @@ h2 {
     .home-info h2 {
         font-size: 1rem;
 
+    }
+
+
+
+    .portfolio-card .overlay {
+        padding: 0.8rem;
+    }
+
+    .portfolio-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-card p {
+        font-size: 0.85rem;
     }
 }
 
